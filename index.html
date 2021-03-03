@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Простые Решения - Simple Solutions</title>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet"> 
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			position: relative;
+		}
+		.card {
+			border: 1px solid #c0c0c0;
+			border-radius: 5px 5px 5px 5px;
+			background-color: #efefef;
+			display: block;
+			width: 358px;
+			margin-left: auto;
+			margin-right: auto;
+			position: absolute;
+			left: 0;
+			right: 0;
+			padding: 20px 20px;
+			
+			/*height: 200px;
+			top: calc(50% - 100px);*/
+			
+			top: 50%;
+			transform: translate(0, -50%);
+		}
+		.title {
+			font-family: 'Merriweather', serif;
+			font-size: 36px;
+			/*text-align: center;*/
+			margin-bottom: 20px;
+		}
+		.subtitle, .tel, .email {
+			font-family: 'PT Sans', sans-serif;
+			font-size: 20px;
+			/*text-align: center;*/
+		}
+		.tel a, .email a { color: black; text-decoration: none; }
+		.tel a:hover, .email a:hover { text-decoration: underline; }
+	</style>
+</head>
+<body>
+
+	<!--div class="container"-->
+	<div class="card">
+		<p class="title">Простые Решения</p>
+		<p class="subtitle">ИП "Simple Solutions"</p>
+		<p class="tel">tel: <a href="tel:+77056789132">+7 705 678 91 32</a></p>
+		<p class="email">email: <a href="mailto:a.sarsenov@simplesolutions.kz">a.sarsenov@simplesolutions.kz</a></p>
+	</div>
+	<!--/div-->
+
+</body>
+</html>
